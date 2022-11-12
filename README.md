@@ -1,6 +1,4 @@
-# Megalist of methods to disable Hapara, Goguardian, etc
-
-A page with info on how to disable common web filters and school spyware.
+# How to disable Hapara and other annoying school spyware
 
 ## List of known bypass methods and exploits
 
