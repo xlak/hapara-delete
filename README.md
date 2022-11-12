@@ -6,7 +6,7 @@ A page with info on how to disable common web filters and school spyware.
 
 - [Ingot](https://fognetwork.github.io/Ingot/)  
   
-  The successor of LTBEEF. Has a better UI.  
+  The successor to LTBEEF. Has a better UI.  
   Comes with all the same limitations as LTBEEF.  
 
 - [LTBEEF](https://compactcow.com/ltbeef/)  
@@ -19,7 +19,7 @@ A page with info on how to disable common web filters and school spyware.
 - [Chaos](https://xlak.github.io/chaos/)  
   
   Can disable force-installed extensions.  
-  Uses a clever priveleg escalation attack.  
+  Uses a clever and unique privilege escalation attack.  
   Won't work if developer tools are completely disabled.  
 
 - [Alphabetic](https://xlak.github.io/alphabetic/)  
@@ -33,11 +33,19 @@ A page with info on how to disable common web filters and school spyware.
   
   Does not hide anything from GoGuardian. Only prevents tabs from being closed.  
   
-- [Hide tabs from Hapara](https://raw.githubusercontent.com/FreshPenguin112/bookmarklets/main/hapara%20tab%20hide%20XD) (Original source)[https://github.com/ConnorCodesatSchool/HaparaDelete/issues/2]
+- [Hide tabs from Hapara](https://raw.githubusercontent.com/FreshPenguin112/bookmarklets/main/hapara%20tab%20hide%20XD) ([Source on GitHub](https://github.com/ConnorCodesatSchool/HaparaDelete/issues/2))
   
   Makes tabs show up as Google Drive tabs on the teacher dashboard.  
   Requires JavaScript bookmarklets to work.  
-  This DOES NOT prevent Hapara from capturing your screen and teachers will see the real tab if they look at the screenshot view.  
+  This DOES NOT prevent Hapara from capturing your screen. Teachers will see the real tab if they look at the screenshot view.  
+  
+- chrome://kill
+  
+  Spam this in the address bar to eventually kill unwanted extensions. Then just click on extensions that you want to keep to relaunch them.
+  
+- Chrome Task Manager
+  
+  Press `Shift+Escape` to open the task manager. You may be able to kill unwanted extensions from here.
 
 ## Proxy and Game Sites
 
@@ -89,6 +97,7 @@ This is strange because many CS classes depend on Repl.it.
 [LTBEEF Github Page](https://github.com/3kh0/ext-remover) (Source code for LTBEEF. Contains a funny message for sysadmins.)  
 [Ingot Github Page](https://github.com/FogNetwork/Ingot) (Source code for Ingot.)  
 [TitaniumNetwork Discord](https://discord.gg/unblock) (Join to get proxy links)  
+[Hapara - Preventing student loopholes](https://support.hapara.com/hc/en-us/articles/230060007-Strengthening-Highlights-and-preventing-student-loopholes) (Try these in case your school didn't implement the patches properly)  
 [k12sysadmin on Reddit](https://reddit.com/r/k12sysadmin) (See what the sysadmins are talking about)  
 
 ## Contributing
