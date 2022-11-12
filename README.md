@@ -53,7 +53,7 @@
   
 - Secondary Chrome accounts
   
- On Chrome for Windows, you can have multiple accounts with their own independent sessions open. So you can open your school account and then open another account to do stuff that you don't want teachers to see.  
+  On Chrome for Windows, you can have multiple accounts with their own independent sessions open. So you can open your school account and then open another account to do stuff that you don't want teachers to see.  
   You can also open a guest session even if it's disabled by the school board. 
 
 ## Proxy and Game Sites
