@@ -7,19 +7,20 @@ A page with info on how to disable common web filters and school spyware.
 - [Ingot](https://fognetwork.github.io/Ingot/)  
   
   The successor to LTBEEF. Has a better UI.  
-  Comes with all the same limitations as LTBEEF.  
+  *Patched* in Chrome OS version 106 and above.  
 
 - [LTBEEF](https://compactcow.com/ltbeef/)  
   
   What Ingot is based on. Opens a menu that lets you disable extensions.  
   Works if developer tools are blocked.  
   Won't work without JavaScript bookmarklets.  
-  *Patched* in Chrome OS version 106 and above  
+  *Patched* in Chrome OS version 106 and above.  
 
 - [Chaos](https://xlak.github.io/chaos/)  
   
-  Can disable force-installed extensions.  
-  Uses a clever and unique privilege escalation attack.  
+  Can disable force-installed extensions fairly easily.  
+  Works on Chrome OS, not on Windows or Mac.  
+  Works without JavaScript bookmarklets.  
   Won't work if developer tools are completely disabled.  
 
 - [Alphabetic](https://xlak.github.io/alphabetic/)  
@@ -27,17 +28,18 @@ A page with info on how to disable common web filters and school spyware.
   Opens hidden, unfiltered tabs that won't save in your history.  
   Doesn't affect the operation of monitoring software on other tabs, unlike most exploits.  
   Works without JavaScript bookmarklets.  
-  Harder to get caught using this since teachers think they can still see all of your tabs.
+  Harder to get caught using this since teachers think they can still see all of your tabs.  
   
 - [GoGuardian close prevention](https://github.com/yeeteeyt/goguardian-bypass)  
   
   Does not hide anything from GoGuardian. Only prevents tabs from being closed.  
+  Requires JavaScript bookmarklets to work.  
   
 - [Hide tabs from Hapara](https://raw.githubusercontent.com/FreshPenguin112/bookmarklets/main/hapara%20tab%20hide%20XD) ([Source on GitHub](https://github.com/ConnorCodesatSchool/HaparaDelete/issues/2))
   
   Makes tabs show up as Google Drive tabs on the teacher dashboard.  
   Requires JavaScript bookmarklets to work.  
-  This DOES NOT prevent Hapara from capturing your screen. Teachers will see the real tab if they look at the screenshot view.  
+  This DOES NOT prevent Hapara from capturing your screen. Teachers will still see the real tab if they look at the screenshot view.  
   
 - chrome://kill
   
@@ -46,6 +48,15 @@ A page with info on how to disable common web filters and school spyware.
 - Chrome Task Manager
   
   Press `Shift+Escape` to open the task manager. You may be able to kill unwanted extensions from here.
+  
+- Alternative browsers
+  
+  If you're on Windows or Mac you can just use another web browser to hide stuff from extension-based monitoring software. But beware that system-level spyware may also be installed on your computer.
+  
+- Secondary Chrome accounts
+  
+ On Chrome for Windows, you can have multiple accounts with their own independent sessions open. So you can open your school account and then open another account to do stuff that you don't want teachers to see.  
+  You can also open a guest session even if it's disabled by the school board. 
 
 ## Proxy and Game Sites
 
@@ -88,6 +99,7 @@ That means the vast majority of proxy sites and unblocked games will not work wi
 - LTBEEF
 - Ingot
 ### iBoss
+A network-wide filter, but it can also come with a browser extension.
 Repl.it is apparently blocked by IP on iBoss because it is frequently used to unblock games.  
 This is strange because many CS classes depend on Repl.it.  
 - Alphabetic
@@ -102,4 +114,4 @@ This is strange because many CS classes depend on Repl.it.
 
 ## Contributing
 
-This project aims to compile a list of known methods to get around web filters and school spyware. If you know of anything that is not covered here, please open an issue or a pull request.
+This project aims to compile a list of known methods to get around web filters and school spyware. If you know of anything that is not covered here, please open an issue or create a pull request.
