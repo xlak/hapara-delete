@@ -90,6 +90,7 @@ This is a list of web filters and spyware, as well as known methods to bypass th
 - Alphabetic
 - LTBEEF
 - Ingot
+
 ### Hapara Filter
 Hapara Filter is actually just a rebranded version of the Deledao extension.  
 It uses AI to detect sites that schools don't want you going on.  
@@ -98,6 +99,7 @@ That means the vast majority of proxy sites and unblocked games will not work wi
 - Alphabetic (Can bypass it without disabling it)
 - LTBEEF
 - Ingot
+
 ### iBoss
 A network-wide filter, but it can also come with a browser extension.
 Repl.it is apparently blocked by IP on iBoss because it is frequently used to unblock games.  
