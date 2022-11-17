@@ -1,4 +1,4 @@
-# How to disable Hapara and other annoying school spyware
+# How to disable annoying school spyware (Hapara, GoGuardian, LanSchool, iBoss, etc)
 
 ## List of known bypass methods and exploits
 
@@ -31,7 +31,8 @@
 - [GoGuardian close prevention](https://github.com/yeeteeyt/goguardian-bypass)  
   
   Does not hide anything from GoGuardian. Only prevents tabs from being closed.  
-  Requires JavaScript bookmarklets to work.  
+  Requires JavaScript bookmarklets to work. 
+  This may also work for Hapara Highlights.
   
 - [Hide tabs from Hapara](https://raw.githubusercontent.com/FreshPenguin112/bookmarklets/main/hapara%20tab%20hide%20XD) ([Source on GitHub](https://github.com/ConnorCodesatSchool/HaparaDelete/issues/2))
   
@@ -54,7 +55,7 @@
 - Secondary Chrome accounts
   
   On Chrome for Windows, you can have multiple accounts with their own independent sessions open. So you can open your school account and then open another account to do stuff that you don't want teachers to see.  
-  You can also open a guest session even if it's disabled by the school board. 
+  You can also open a guest session even if it's disabled by the school board.
 
 ## Proxy and Game Sites
 
@@ -84,25 +85,63 @@
 This is a list of web filters and spyware, as well as known methods to bypass them.
 
 ### Hapara Highlights
+Lets teachers view open tabs, screenshots, and recent browsing history in the Teacher Dashboard. Teachers can send messages to students and close tabs. Teachers can also turn on focus browsing mode which only lets you open approved websites for a certain amount of time.
 - Chaos
 - Alphabetic
 - LTBEEF
 - Ingot
 
 ### Hapara Filter
-Hapara Filter is actually just a rebranded version of the Deledao extension.  
-It uses AI to detect sites that schools don't want you going on.  
-That means the vast majority of proxy sites and unblocked games will not work without disabling it first.  
+Hapara Filter is actually just a rebranded version of the Deledao extension. It uses AI to detect sites that schools don't want you going on. That means the vast majority of proxy sites and unblocked games will not work without disabling it first.  
+Interesting to note: Clicking on the Hapara Filter icon makes a box pop up that lets you enter "support commands". The extension verifies inputted commands with an RSA key and executes them as JavaScript if they're valid. Possible exploit if the private key ever gets cracked or leaked.
 - Chaos
 - Alphabetic (Can bypass it without disabling it)
 - LTBEEF
 - Ingot
 
 ### iBoss
-A network-wide filter, but it can also come with a browser extension.
-Repl.it is apparently blocked by IP on iBoss because it is frequently used to unblock games.  
-This is strange because many CS classes depend on Repl.it.  
+A network-wide filter, but it can also come with a browser extension. Repl.it is apparently blocked by IP on iBoss because it is frequently used to unblock games. This is strange because many CS classes depend on Repl.it.  
 - Alphabetic
+- Chaos (for extension)
+- LTBEEF (for extension)
+- Ingot (for extension)
+
+### FortiGate
+A network-wide filter. Asks for an admin username and password to override site blocking.
+- Alphabetic
+
+### GoGuardian
+A very popular piece of classroom monitoring software. Lets teachers see tab names, but not screenshots.
+
+- Chaos
+- Alphabetic
+- LTBEEF
+- Ingot
+
+### LanSchool
+By far the worst piece of monitoring software out of the bunch, it lets you control every device on the network if you download the teacher software. Runs using pNaCl for the Chrome extension. It lets teachers see your full screen on Windows. Has a keylogger that stores key presses in an encrypted format.
+
+- Chaos
+- LTBEEF
+- Ingot
+
+### Lightspeed Relay
+
+- Alphabetic
+
+### Securly
+
+- Chaos
+- Alphabetic
+- LTBEEF
+- Ingot
+
+### Blocksi
+
+- Chaos
+- Alphabetic
+- LTBEEF
+- Ingot
 
 ## Useful Resources
 [HeroHACK Academy of Hacking](https://sites.google.com/view/hackingacademybypro/home) (Contains lots of hints on how to find bypass methods)  
@@ -111,6 +150,7 @@ This is strange because many CS classes depend on Repl.it.
 [TitaniumNetwork Discord](https://discord.gg/unblock) (Join to get proxy links)  
 [Hapara - Preventing student loopholes](https://support.hapara.com/hc/en-us/articles/230060007-Strengthening-Highlights-and-preventing-student-loopholes) (Try these in case your school didn't implement the patches properly)  
 [k12sysadmin on Reddit](https://reddit.com/r/k12sysadmin) (See what the sysadmins are talking about)  
+[TN-Decompile](https://github.com/TN-Decompile) (Decompiled source code for some school spware)  
 
 ## Contributing
 
