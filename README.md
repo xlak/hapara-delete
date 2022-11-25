@@ -13,6 +13,12 @@
   Works if developer tools are blocked.  
   Won't work without JavaScript bookmarklets.  
   *Patched* in Chrome OS version 106 and above.  
+  
+- [Swamp Launcher](https://www.youtube.com/watch?v=qo-hx0tOYxI)
+  
+  Uses a custom DNS server to force-install a Chrome extension.
+  The extension then lets you disable any extension you want.  
+  Unfortunately this was discovered by a sysadmin and posted to r/k12sysadmin. It will likely be patched in most school districts.
 
 - [Chaos](https://xlak.github.io/chaos/)  
   
@@ -90,6 +96,7 @@ Lets teachers view open tabs, screenshots, and recent browsing history in the Te
 - Alphabetic
 - LTBEEF
 - Ingot
+- Swamp Launcher
 
 ### Hapara Filter
 Hapara Filter is actually just a rebranded version of the Deledao extension. It uses AI to detect sites that schools don't want you going on. That means the vast majority of proxy sites and unblocked games will not work without disabling it first.  
@@ -105,6 +112,7 @@ A network-wide filter, but it can also come with a browser extension. Repl.it is
 - Chaos (for extension)
 - LTBEEF (for extension)
 - Ingot (for extension)
+- Swamp Launcher (for extension)
 
 ### FortiGate
 A network-wide filter. Asks for an admin username and password to override site blocking.
@@ -117,13 +125,15 @@ A very popular piece of classroom monitoring software. Lets teachers see tab nam
 - Alphabetic
 - LTBEEF
 - Ingot
+- Swamp Launcher
 
 ### LanSchool
-By far the worst piece of monitoring software out of the bunch, it lets you control every device on the network if you download the teacher software. Runs using pNaCl for the Chrome extension. It lets teachers see your full screen on Windows. Has a keylogger that stores key presses in an encrypted format.
+By far the worst piece of monitoring software out of the bunch, it lets you control every device on the network if you download the teacher software. Runs using pNaCl for the Chrome extension. It lets teachers see your full screen on Windows. Has a keylogger that stores key presses in a scrambled format.
 
 - Chaos
 - LTBEEF
 - Ingot
+- Swamp Launcher
 
 ### Lightspeed Relay
 
@@ -135,6 +145,7 @@ By far the worst piece of monitoring software out of the bunch, it lets you cont
 - Alphabetic
 - LTBEEF
 - Ingot
+- Swamp Launcher
 
 ### Blocksi
 
@@ -142,6 +153,7 @@ By far the worst piece of monitoring software out of the bunch, it lets you cont
 - Alphabetic
 - LTBEEF
 - Ingot
+- Swamp Launcher
 
 ## Useful Resources
 [HeroHACK Academy of Hacking](https://sites.google.com/view/hackingacademybypro/home) (Contains lots of hints on how to find bypass methods)  
