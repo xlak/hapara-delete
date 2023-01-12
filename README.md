@@ -12,7 +12,7 @@
   What Ingot is based on. Opens a menu that lets you disable extensions.  
   Works if developer tools are blocked.  
   Won't work without JavaScript bookmarklets.  
-  *Patched* in Chrome OS version 106 and above.  
+ ~~*Patched* in Chrome OS version 106 and above.~~ The repo now contains additional methods that will work on v106+.  
   
 - [Swamp Launcher](https://www.youtube.com/watch?v=qo-hx0tOYxI)
   
