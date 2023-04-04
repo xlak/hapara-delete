@@ -79,6 +79,11 @@
   Hosts a lot of unblocked games.  
   Unfortunately it has lots of ads.  
   
+- [Art Class](https://artclass.site/)
+  
+  Another  always-unblocked games site
+  No ads!
+  
 - [Cool Math Games](https://www.coolmathgames.com/)
   
   This one's a classic.
